@@ -1,0 +1,7 @@
+file=open("Myfile2.txt","w")
+name=input("Enter name of person :")
+age=int(input("Enter age of person :"))
+sal=eval(input("Enter salary of person :"))
+data=name + "\n" + str(age)+ "\n" + str(sal)
+file.write(data)
+file.close()
